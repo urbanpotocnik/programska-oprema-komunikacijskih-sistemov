@@ -19,6 +19,5 @@ int main()
         sleep(10);
         printf("Stars PID = %d se koncuje\n", getpid());
     }
-
     return 0;
 }
