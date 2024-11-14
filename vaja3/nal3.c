@@ -23,6 +23,7 @@ void *fun(void *arg)
     pthread_t nit1 = pthread_self();
     int stevecint = 0;
     int i, n;
+    
     for(i = 0; i < 100; i++)
     {
         pthread_mutex_lock(&mutex1);
